@@ -1,14 +1,38 @@
-/*
-hi guys can we discuss scheduling rq
+//popup alert
+//the semicolon marks the end of it
+alert("hello world");
+console.log(1);
+console.log(2);
 
-yeah for me im probs gonna be a bit busier over like the next two weeks due to internship stuff. 
+let age = 25;
+let year = 2019
+console.log(age, year);
 
-what would help is if we can shift the time backwards a little (like 9:00pm-12:00pm). I'd probably leave at 11ish to sleep tho.
+const points = 100;
+//points = 50;
+console.log(points);
 
-Haha yeah originally when we created the schedule it was just my schedule I used for ao. It was kinda random.
+//numbers = 1 2 3
+//string = 'memes'
+//boolean = true/false
+//null
+//undefined = vars that are empy
+//object = complex data structures (arr, dates, literals)
+//symbol = used with objects
 
-We shaved some time off, and reorganized it a bit, but uh yeah now that we have new members and stuff we might wanna reorganize
+let email = "hello";
+let emailSecondHalf = "@salutations.hi";
+let totalEmail = email + emailSecondHalf;
 
+console.log(email);
+console.log(email.toUpperCase());
+console.log(email + emailSecondHalf);
+console.log(emailSecondHalf[0]);
+console.log(totalEmail.lastIndexOf("@"));
+console.log(emailSecondHalf.substr(1, emailSecondHalf.length-1), emailSecondHalf.slice(-1, -5));
 
-
- */
+//functions and methods. 
+//Functions are snippets of code that perform a particular task
+//Methods are just a function assosiated with a partiuclar object or datatype
+//Both are often used interchangeably
+1//it's a method wheneber we see the dot
