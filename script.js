@@ -1,38 +1,20 @@
-//popup alert
-//the semicolon marks the end of it
-alert("hello world");
-console.log(1);
-console.log(2);
+//numbers
+let dataOne = 1;
 
-let age = 25;
-let year = 2019
-console.log(age, year);
+//string 
+let dataTwo = 'hello world';
 
-const points = 100;
-//points = 50;
-console.log(points);
+//Null (no value)
+let dataThree = null;
 
-//numbers = 1 2 3
-//string = 'memes'
-//boolean = true/false
-//null
-//undefined = vars that are empy
-//object = complex data structures (arr, dates, literals)
-//symbol = used with objects
+//Undefined (not yet defined)
+let dataFour = undefined;
+let dataFourExample;
 
-let email = "hello";
-let emailSecondHalf = "@salutations.hi";
-let totalEmail = email + emailSecondHalf;
+//Object
+let dataFive = ["arrays", "dates", "literals"];
 
-console.log(email);
-console.log(email.toUpperCase());
-console.log(email + emailSecondHalf);
-console.log(emailSecondHalf[0]);
-console.log(totalEmail.lastIndexOf("@"));
-console.log(emailSecondHalf.substr(1, emailSecondHalf.length-1), emailSecondHalf.slice(-1, -5));
+//Symbols (used with objects)
+let dataSix = Symbol();
 
-//functions and methods. 
-//Functions are snippets of code that perform a particular task
-//Methods are just a function assosiated with a partiuclar object or datatype
-//Both are often used interchangeably
-1//it's a method wheneber we see the dot
+console.log(dataOne, dataTwo, dataThree, dataFour, dataFive, dataSix);
