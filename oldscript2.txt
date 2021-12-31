@@ -1,0 +1,27 @@
+//codeblock
+const names = ["joe", "jay"];
+
+for(let i=0; i<5; i++){
+  console.log(i);
+}
+
+for(let j=0; j<names.length; j++){
+  let html = `<div>${names[j]}</div>`;
+  console.log(html);
+}
+
+let p=0;
+let a=0;
+while(p<5){
+  p++;
+  console.log("p: " + p);
+  
+}
+
+console.log('\n');
+
+do {
+    a++;
+  console.log("a: " + a);
+} while(a<5)
+
